@@ -1,0 +1,140 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  display: block;
+}
+
+.form {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.front_text{
+  display: block;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0 10px 0;
+}
+
+.front{
+  background-color: rgb(39, 131, 212);
+  padding: 10px;
+  border: 0;
+  min-width: 100px;
+  border-radius: 5px;
+  color: white;
+}
+
+nav {
+  background-color: #eee;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  color: rgb(97, 28, 161);
+  text-decoration: none;
+}
+
+.dashboard {
+  width: 500px;
+  margin: auto;
+}
+
+.errorMessage {
+  background-color: #f2dede;
+  color: #a94442;
+  padding: 10px;
+}
+/* 
+FORMULARIO REGISTRO DE PAF */
+.container-reg-paf{
+  margin: 0 auto;
+  height: auto;
+  width: 600px;
+  margin-top: 20px;
+  
+}
+.form-pdf{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5px;
+}
+.form-pdf .form-control{
+  padding: 10px;
+  border: solid 1px black; 
+}
+label{
+  padding: 5px;
+}
+.form-pdf .btn{
+  margin: 10px;
+}
+
+/* tarjetas PAF */
+.uploaded{
+  margin-top: 30px;
+  width: 25%;
+  text-align: center;
+}
+.output-div{
+  display: flex;
+  justify-content: space-evenly;
+}
+.inner-div{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.pdfs{
+  text-align: center;
+  background-color: rgb(102, 120, 185);
+  margin: 0 auto;
+  padding: 20px;
+  width: 990px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px;
+  border-radius: 5px;
+}
+.imagendoc{
+  width: 100%;
+  height: auto;
+  
+}
+.pdf{
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 230px;
+}
+.buscador{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.buscador input{
+  width: 400px;
+  height: 40px;
+  padding: 0 0.5rem;
+  font-size: 20px;
+  font-weight: bold;
+}
